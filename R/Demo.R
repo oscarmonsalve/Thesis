@@ -1,0 +1,6 @@
+x <- rnorm(1000)
+y <- rnorm(1000)
+m1 <- lm(y~x)
+summary(m1)
+par(mfrow=c(2,2))
+plot(m1)
